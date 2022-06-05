@@ -1,0 +1,20 @@
+Kamu adalah seorang mahasiswa IT yang baru memulai perjalanan, kemudian kamu juga sudah belajar tentang adanya pseudocode.
+Kemudian dosenmu memmberikan sebuah tugas untuk membuat sebuah pseudocode tentang cara kerja sebuah thermometer yang akan merubah semua jenis suhu menjadi celcius.
+
+START
+
+input suhu = 100
+jenis suhu = Fahrenheit
+
+switch (jenis suhu)
+	case Kelvin
+		print (input suhu - 273.15)
+		break
+	case Fahrenheit
+		print (input suhu - 32) * (5/9)
+		break
+	case Celcius
+		print (input suhu)
+		break
+
+END

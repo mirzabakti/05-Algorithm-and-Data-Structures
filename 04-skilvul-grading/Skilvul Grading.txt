@@ -1,0 +1,35 @@
+Skilvul ingin memberikan penilaian terhadap siswa
+
+Setiap siswa akan menerima penilaian skala 0 - 100
+Nilai di bawah 70 dianggap tidak lulus
+Dalam memberikan nilai ada 2 tahapan penting yaitu:
+
+Untuk proses pembulatan nilai kelipatan 5, syaratnya adalah nilai tersebut harus kurang/lebih kecil dari 3 jaraknya dengan nilai pembulatan ke atas.
+Jika nilai kurang dari 68, tidak dapat melakukan pembulatan karena tetap dianggap tidak lulus.
+Input berupa Nilai Awal
+
+Output berupa Nilai Akhir baik yang dapat dilakukan pembulatan ataupun tidak
+
+
+START
+
+n = nilai
+
+if ( n > 97 && n <=100 ){
+print 100
+if else ( n > 92 && n <=95 ){
+print 95
+if else ( n > 87 && n <=90 ){
+print 90
+if else ( n > 82 && n <=85 ){
+print 85
+if else ( n > 77 && n <=80 ){
+print 80
+if else ( n > 72 && n <=75 ){
+print 75
+if else ( n > 67 && n <=70 ){
+print 70
+else
+print n
+
+END
